@@ -17,7 +17,6 @@ public class Sorting {
             arry[high] = temp;
             return i;
         }
-
         private static void quickShort(int[] arry, int low, int high) {
             if(low<high){
                 int pi = partition(arry, low, high);
