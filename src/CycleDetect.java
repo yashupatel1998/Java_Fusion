@@ -9,7 +9,7 @@ class SListNode{
 public class CycleDetect {
     public static boolean cycleDetect(SListNode head){
         if(head==null){
-            return false:
+            return false;
         }
         SListNode Fast = head;
         SListNode Slow = head;
